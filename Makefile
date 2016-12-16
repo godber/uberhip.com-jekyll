@@ -14,9 +14,9 @@ build: clean
 	chmod -R 755 _site/*
 
 prod_deploy: build
-	rsync -a _site/ balancar.uberhip.com:/var/www/web6/web/
+	rsync -a _site/ antica.uberhip.com:/var/www/web6/web/
 	notify-send 'Deploy Status' 'Deploy to production complete'
 
 test_deploy: build
-	rsync -a _site/ balancar.uberhip.com:/var/www/web3/web/
+	rsync -a _site/ antica.uberhip.com:/var/www/web3/web/
 	notify-send 'Deploy Status' 'Deploy to test complete'
