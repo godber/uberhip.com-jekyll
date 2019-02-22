@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Astrophotography - Getting Started"
-date:   2017-12-09 06:28:00
+date:   2019-02-16 06:28:00
 categories: astrophotography
 ---
 
