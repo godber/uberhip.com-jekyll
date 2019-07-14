@@ -11,9 +11,11 @@ help:
 	@echo '  make prod_deploy             deploys site to production server'
 
 clean:
+	rm -rf misc/gallery
 	rm -rf _site/*
 
 build: clean
+	cd _sigal; /Users/godber/.virtualenvs/sigal/bin/sigal build
 	jekyll build
 	chmod -R 755 _site/*
 
